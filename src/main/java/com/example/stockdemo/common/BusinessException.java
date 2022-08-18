@@ -1,19 +1,19 @@
 package com.example.stockdemo.common;
 
-public class BussinessException extends RuntimeException {
-    public BussinessException() {
+public class BusinessException extends RuntimeException {
+    public BusinessException() {
         super();
     }
 
-    public BussinessException(String message, Throwable cause) {
+    public BusinessException(String message, Throwable cause) {
         super(message, cause);
     }
 
-    public BussinessException(String message) {
+    public BusinessException(String message) {
         super(message);
     }
 
-    public BussinessException(Throwable cause) {
+    public BusinessException(Throwable cause) {
         super(cause);
     }
 }
